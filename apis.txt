@@ -10,7 +10,7 @@ login market POST /api/v1/auth/market { phone, password }
 
 get cities GET /api/v1/cities
 
-get regions /api/v1/regions
+get regions GET /api/v1/regions
 
 update market PUT /api/v1/markets/me PRIVATE { name?, phone?,  inCharge?, address: { city?, region?, full? } }
 
